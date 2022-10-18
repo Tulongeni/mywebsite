@@ -1,0 +1,258 @@
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+
+}
+body
+{
+    min-height: 1000px;
+}
+.banner
+{
+position:relative;
+width:100%;
+min-height: 100vh;
+display:flex;
+justify-content: center;
+align-items:center;
+background:url(images.jpg);
+background-size:cover;
+}
+.banner .content
+{
+    max-width:900px;
+    text-align: center;
+}
+.banner .content h2
+{
+font-size: 5em;
+color:black;
+}
+.btn
+{
+    font-size:1em;
+    color:white;
+    background:brown;
+    display:inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform:uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn:hover
+{
+    letter-spacing: 6px;
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 40px 100px;
+    z-index:10000;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+} 
+header.sticky
+{
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0.0.0,0.05);
+}
+header .logo
+{
+
+    color:brown;
+    font-weight: 700px;
+    font-size:2em;
+    text-decoration: none;
+}
+header.sticky .logo
+{
+color: #111;
+}
+header .logo span
+{
+    color:brown;
+    font-size: 100px;
+}
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+header .navigation li
+{
+    list-style: none;
+    margin-left:30px;
+}
+header .navigation li a
+{
+    text-decoration:none;
+    color:black;
+    font-weight: 300px;
+}
+header.sticky .navigation li a
+{
+    color:rosybrown;
+}
+header  .navigation li a:hover
+{
+    color:orangered;
+}
+section{
+    padding: 100px;
+}
+.row
+{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.titleText
+{
+color:#111;
+font-size:2em;
+font-weight:300px;
+}
+.titleText span
+{
+    color:rosybrown;
+    font-weight:700px;
+    font-size: 1.5em;
+}
+.row .co150 .imgBx
+{
+    position:relative;
+    width:100%;
+    /*min-height:300px;*/
+    height:100%;
+}
+.row .co150 .imgBx img
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.title
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu .content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .content .box
+{
+    width: 340px;
+    margin:20px;
+    border:15px solid#fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.menu .content .box .imgBx
+{
+    position:relative;
+    width:100%;
+    height:300px;
+}
+.menu .content .box .imgBx img
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.menu .content .box .text
+{
+    padding:15px 0 5px;
+}
+.menu .content .box .text h3
+{
+    font-weight: 400px;
+}
+/* .contactForm{
+    padding:75px 50px;
+    background:rosybrown;
+    box-shadow: 0 15px 50px rgba(0.0.0,0.1);
+    max-width:500px;
+    margin-top: 50px;
+}
+.contactForm h3
+{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom:20px;
+    font-weight: 500px;
+}
+.contactForm .inputBox
+{
+    position:relative;
+    width:100%;
+    margin-bottom: 20px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+width:100px;
+border:1px solid #555;
+padding:10px;
+color: #111;
+outline: none;
+font-size: 16px;
+font-weight: 300;
+resize:none;
+}
+.contactForm .inputBox input[type="Submit"]
+{
+    font-size: 1em;
+    color:#fff;
+    background: brown;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 100px;
+    font-weight: 500px;
+    border:none;
+    cursor:pointer;
+} */
+.copyrightText{
+    padding:8px 40px;
+    border-top: 1px sold rgba(0.0.0,0.1);
+    text-align: center;
+}
+.copyrightText p
+{
+    color:#333;
+}
+.copyrightText p
+{
+    color:brown;
+    font-weight: 50px;
+    text-decoration: none;
+}
+
+
